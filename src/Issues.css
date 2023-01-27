@@ -1,0 +1,63 @@
+.IssuesPage {
+    width: 80%;
+    margin: 0 auto;
+  }
+  
+  .IssuesPage-title {
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  
+  .IssuesPage-list {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .IssuesPage-item {
+    width: 100%;
+    margin-bottom: 1rem;
+    padding: 1rem;
+    background-color: #f5f5f5;
+    border-radius: 4px;
+  }
+  
+  .IssuesPage-itemTitle {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .IssuesPage-itemBody {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .IssuesPage-itemUser {
+    display: flex;
+    align-items: center;
+  }
+  
+  .IssuesPage-itemAvatar {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 0.5rem;
+  }
+  
+  .IssuesPage-itemLogin {
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+  
+  .IssuesPage-loading {
+    text-align: center;
+    margin-top: 2rem;
+  }
+  
+  .IssuesPage-error {
+    color: red;
+    text-align: center;
+    margin-top: 2rem;
+  }
+  
